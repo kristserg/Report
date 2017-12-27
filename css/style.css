@@ -1,0 +1,103 @@
+body{
+	margin-right: 8%;
+	margin-left: 8%;
+	font-family: Calibri;
+	background-color: white;
+}
+
+.paddingup {
+	margin-top: 0px;
+	position: fixed;
+	width: 20%;
+	height: 95%;
+	display: inline-table;
+	float: left;
+	background-color: darkgreen;
+	border-right: 2px solid gray;
+	margin-right: 2%;
+}
+
+.heading {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	color: #006400;
+	border-bottom: 1.5px solid gray;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+p {
+	margin-top: 12px;
+	margin-bottom: 12px;
+	font-size: 18px;
+}
+
+figure {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;	
+	margin-bottom: 12px;
+	border:0px;
+	outline: none;
+}
+
+figure img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;	
+	border:0px;
+	outline: none;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+h2 {
+
+color: #006400;
+text-align: center;
+	
+}
+
+.first {
+	margin-top: 12px;
+	margin-bottom: 12px;
+	font-size: 30px;
+	color: #006400;
+}
+
+.mainpage{
+	width: 72%;
+	margin-right: 0%;
+	margin-left: 28%;
+	display: inline-block;
+}
+
+textarea {
+	border-radius: 8px;
+	padding: 10px;
+	width: 97.5%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	resize: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    border-bottom: 1px solid gray;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
